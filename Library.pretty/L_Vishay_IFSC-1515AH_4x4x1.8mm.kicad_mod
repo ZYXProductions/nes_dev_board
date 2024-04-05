@@ -1,0 +1,254 @@
+(footprint "L_Vishay_IFSC-1515AH_4x4x1.8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Low Profile, High Current Inductors (https://www.vishay.com/docs/34295/sc15ah01.pdf)")
+	(tags "SMD Vishay Inductor Low Profile")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "e998b1cd-e703-41f0-9bf3-72cc3109d32b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10uH"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "88e0dbdf-69ea-47ec-abc3-aa7e449eaef0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "709fee34-df57-4a14-81a0-50b10686960a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d842a70b-48d8-4d67-a7cb-77157a44762c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f7acc8f-3aac-43ff-aab1-9fa02a5a15ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C497774"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10961e32-c510-4d95-ae4f-bf57c44c00a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -2.11)
+		(end 2 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07db4335-a354-41e4-927e-14cc7ed841f2")
+	)
+	(fp_line
+		(start 2 2.11)
+		(end -2 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "434cf8cb-0f5c-4ac9-88af-9b44c2f496cd")
+	)
+	(fp_line
+		(start -2.3 -2.25)
+		(end 2.3 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75432ecd-20f2-4562-b9ec-fb0e38719551")
+	)
+	(fp_line
+		(start -2.3 2.25)
+		(end -2.3 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e795eaf4-6917-4aae-9105-a8e2ef8f47d4")
+	)
+	(fp_line
+		(start 2.3 -2.25)
+		(end 2.3 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4c27cf9-e86c-47a4-a2d5-04dd78829bec")
+	)
+	(fp_line
+		(start 2.3 2.25)
+		(end -2.3 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c5bffdb-a9c7-4cae-a64d-07b31d813e09")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eaeca62b-77f2-4fbe-ad7e-a04fe01ac0e6")
+	)
+	(fp_line
+		(start -2 -1.115)
+		(end -1.115 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f97c091-030c-4da0-834e-c7119ec618a5")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f54cf999-75bf-4175-8814-33651b9ababa")
+	)
+	(fp_line
+		(start -1.115 2)
+		(end -2 1.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55ef8e2b-8fbd-4306-8185-253eb0c50a55")
+	)
+	(fp_line
+		(start 1.115 -2)
+		(end 2 -1.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c111e0f-74a1-48a4-90d3-ed074b969a45")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8cbf3486-9ddf-4d28-a447-4bee0487db7c")
+	)
+	(fp_line
+		(start 2 1.115)
+		(end 1.115 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bc745b4-f292-488c-81a0-52bee2ae8e8e")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23bca286-e6fa-4b76-becc-16a3f313090c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "28404d7d-4993-4601-a753-d5810fdbbdb1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.15 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f1c636ff-97d4-4abd-8296-748bd42f55e6")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.15 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "78b894cd-b11a-4dd5-a374-6d20f65e4d4a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Vishay_IFSC-1515AH_4x4x1.8mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

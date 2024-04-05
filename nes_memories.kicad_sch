@@ -5,7 +5,7 @@
 	(uuid "557837c8-e5ec-4bdb-8e76-0dd8de5a13f1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Library:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -141,7 +141,103 @@
 				)
 			)
 		)
-		(symbol "Memory_RAM:IS61C5128AL-10TLI"
+		(symbol "Library:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:IS61C5128AL-10TLI"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1014,103 +1110,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:VCC"
+		(symbol "Library:VCC"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -3832,7 +3832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 194.31 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3908,7 +3908,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:IS61C5128AL-10TLI")
+		(lib_id "Library:IS61C5128AL-10TLI")
 		(at 190.5 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4113,7 +4113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 190.5 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4179,7 +4179,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 63.5 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4245,7 +4245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 194.31 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4321,7 +4321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "Library:VCC")
 		(at 190.5 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4387,7 +4387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 67.31 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4463,7 +4463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_RAM:IS61C5128AL-10TLI")
+		(lib_id "Library:IS61C5128AL-10TLI")
 		(at 63.5 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4668,7 +4668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "Library:VCC")
 		(at 63.5 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4734,7 +4734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 198.12 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4800,7 +4800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 67.31 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4876,7 +4876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 71.12 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
