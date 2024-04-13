@@ -2291,7 +2291,7 @@
 				)
 			)
 			(property "Footprint" "NES:NES_Cartridge_Edge"
-				(at -12.7 -38.1 0)
+				(at 0.254 -49.784 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 				)
 			)
 			(property "Description" "NES Card Edge"
-				(at -12.7 -38.1 0)
+				(at -0.254 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2340,7 +2340,7 @@
 				)
 			)
 			(symbol "NES_Card_Edge_1_1"
-				(pin power_out line
+				(pin power_in line
 					(at -15.24 -43.18 0)
 					(length 2.54)
 					(name "GND"
@@ -3582,7 +3582,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 15.24 45.72 180)
 					(length 2.54)
 					(name "GND"

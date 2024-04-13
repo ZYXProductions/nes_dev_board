@@ -4113,7 +4113,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "EV"
-			(at 2.286 30.48 0)
+			(at 0 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4121,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 12.7 2.54 0)
+			(at 12.7 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 12.7 2.54 0)
+			(at 12.7 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 12.7 2.54 0)
+			(at 12.7 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 12.7 2.54 0)
+			(at 12.7 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4166,7 @@
 		(symbol "HX8K_Eval_Board_1_1"
 			(rectangle
 				(start -7.62 27.94)
-				(end 7.62 -27.686)
+				(end 7.62 -27.94)
 				(stroke
 					(width 0)
 					(type default)
@@ -4176,7 +4176,7 @@
 				)
 			)
 			(text "HX8K-J2"
-				(at 0 25.908 0)
+				(at 0 0.254 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4184,7 +4184,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 22.86 0)
+				(at 0 34.29 270)
 				(length 6.35)
 				(name "1v2"
 					(effects
@@ -4202,7 +4202,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 0 0)
+				(at -13.97 5.08 0)
 				(length 6.35)
 				(name "G14"
 					(effects
@@ -4220,7 +4220,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -2.54 0)
+				(at -13.97 2.54 0)
 				(length 6.35)
 				(name "J15"
 					(effects
@@ -4238,7 +4238,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -5.08 0)
+				(at -13.97 -16.51 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4256,7 +4256,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -7.62 0)
+				(at -13.97 0 0)
 				(length 6.35)
 				(name "H16"
 					(effects
@@ -4274,7 +4274,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -10.16 0)
+				(at -13.97 -2.54 0)
 				(length 6.35)
 				(name "G16"
 					(effects
@@ -4292,7 +4292,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -12.7 0)
+				(at -13.97 -5.08 0)
 				(length 6.35)
 				(name "F16"
 					(effects
@@ -4310,7 +4310,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -15.24 0)
+				(at -13.97 -24.13 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4328,7 +4328,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -17.78 0)
+				(at -13.97 -7.62 0)
 				(length 6.35)
 				(name "E16"
 					(effects
@@ -4346,7 +4346,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -20.32 0)
+				(at -13.97 -10.16 0)
 				(length 6.35)
 				(name "D16"
 					(effects
@@ -4364,7 +4364,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -22.86 0)
+				(at -13.97 -12.7 0)
 				(length 6.35)
 				(name "C16"
 					(effects
@@ -4382,7 +4382,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 20.32 0)
+				(at -2.54 34.29 270)
 				(length 6.35)
 				(name "1v2"
 					(effects
@@ -4400,7 +4400,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -25.4 0)
+				(at -13.97 -26.67 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4417,10 +4417,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 22.86 180)
+			(pin input line
+				(at 2.54 34.29 270)
 				(length 6.35)
-				(name "IO1"
+				(name "VREFIO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4472,7 +4472,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 15.24 180)
+				(at 13.97 -16.51 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4490,7 +4490,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 12.7 180)
+				(at 13.97 15.24 180)
 				(length 6.35)
 				(name "M15"
 					(effects
@@ -4508,7 +4508,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 10.16 180)
+				(at 13.97 12.7 180)
 				(length 6.35)
 				(name "L16"
 					(effects
@@ -4526,7 +4526,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 7.62 180)
+				(at 13.97 10.16 180)
 				(length 6.35)
 				(name "K16"
 					(effects
@@ -4544,7 +4544,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 5.08 180)
+				(at 13.97 -19.05 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4562,7 +4562,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 2.54 180)
+				(at 13.97 7.62 180)
 				(length 6.35)
 				(name "J14"
 					(effects
@@ -4598,7 +4598,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 0 180)
+				(at 13.97 5.08 180)
 				(length 6.35)
 				(name "F14"
 					(effects
@@ -4616,7 +4616,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -2.54 180)
+				(at 13.97 2.54 180)
 				(length 6.35)
 				(name "H14"
 					(effects
@@ -4634,7 +4634,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -5.08 180)
+				(at 13.97 -21.59 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4652,7 +4652,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -7.62 180)
+				(at 13.97 0 180)
 				(length 6.35)
 				(name "G15"
 					(effects
@@ -4670,7 +4670,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -10.16 180)
+				(at 13.97 -2.54 180)
 				(length 6.35)
 				(name "F15"
 					(effects
@@ -4688,7 +4688,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -12.7 180)
+				(at 13.97 -5.08 180)
 				(length 6.35)
 				(name "E14"
 					(effects
@@ -4706,7 +4706,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -15.24 180)
+				(at 13.97 -24.13 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4724,7 +4724,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -17.78 180)
+				(at 13.97 -7.62 180)
 				(length 6.35)
 				(name "D15"
 					(effects
@@ -4742,7 +4742,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -20.32 180)
+				(at 13.97 -10.16 180)
 				(length 6.35)
 				(name "D14"
 					(effects
@@ -4760,7 +4760,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -22.86 180)
+				(at 13.97 -12.7 180)
 				(length 6.35)
 				(name "B16"
 					(effects
@@ -4778,7 +4778,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 15.24 0)
+				(at -13.97 -21.59 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4796,7 +4796,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -25.4 180)
+				(at 13.97 -26.67 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4814,7 +4814,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 12.7 0)
+				(at -13.97 15.24 0)
 				(length 6.35)
 				(name "N16"
 					(effects
@@ -4832,7 +4832,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 10.16 0)
+				(at -13.97 12.7 0)
 				(length 6.35)
 				(name "M16"
 					(effects
@@ -4850,7 +4850,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 7.62 0)
+				(at -13.97 10.16 0)
 				(length 6.35)
 				(name "K15"
 					(effects
@@ -4868,7 +4868,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 5.08 0)
+				(at -13.97 -19.05 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4886,7 +4886,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 2.54 0)
+				(at -13.97 7.62 0)
 				(length 6.35)
 				(name "K14"
 					(effects
@@ -4917,7 +4917,7 @@
 				)
 			)
 			(text "HX8K-J1"
-				(at -0.508 26.416 0)
+				(at 0 0.254 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4943,7 +4943,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 0 0)
+				(at -13.97 5.08 0)
 				(length 6.35)
 				(name "B8"
 					(effects
@@ -4961,7 +4961,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -2.54 0)
+				(at -13.97 2.54 0)
 				(length 6.35)
 				(name "B7"
 					(effects
@@ -4979,7 +4979,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -5.08 0)
+				(at -13.97 -21.59 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -4997,7 +4997,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -7.62 0)
+				(at -13.97 0 0)
 				(length 6.35)
 				(name "A6"
 					(effects
@@ -5015,7 +5015,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -10.16 0)
+				(at -13.97 -2.54 0)
 				(length 6.35)
 				(name "B6"
 					(effects
@@ -5033,7 +5033,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -12.7 0)
+				(at -13.97 -5.08 0)
 				(length 6.35)
 				(name "A5"
 					(effects
@@ -5051,7 +5051,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -15.24 0)
+				(at -13.97 -24.13 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5069,7 +5069,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -17.78 0)
+				(at -13.97 -7.62 0)
 				(length 6.35)
 				(name "B5"
 					(effects
@@ -5087,7 +5087,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -20.32 0)
+				(at -13.97 -10.16 0)
 				(length 6.35)
 				(name "B4"
 					(effects
@@ -5105,7 +5105,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -22.86 0)
+				(at -13.97 -12.7 0)
 				(length 6.35)
 				(name "A2"
 					(effects
@@ -5141,7 +5141,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -25.4 0)
+				(at -13.97 -26.67 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5158,10 +5158,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 22.86 180)
+			(pin input line
+				(at 2.54 34.29 270)
 				(length 6.35)
-				(name "IO0"
+				(name "VREFIO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5213,7 +5213,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 15.24 180)
+				(at 13.97 -16.51 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5231,7 +5231,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 12.7 180)
+				(at 13.97 15.24 180)
 				(length 6.35)
 				(name "B11"
 					(effects
@@ -5249,7 +5249,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 10.16 180)
+				(at 13.97 12.7 180)
 				(length 6.35)
 				(name "B10"
 					(effects
@@ -5267,7 +5267,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 7.62 180)
+				(at 13.97 10.16 180)
 				(length 6.35)
 				(name "C9"
 					(effects
@@ -5285,7 +5285,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 5.08 180)
+				(at 13.97 -19.05 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5303,7 +5303,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 2.54 180)
+				(at 13.97 7.62 180)
 				(length 6.35)
 				(name "B9"
 					(effects
@@ -5339,7 +5339,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 0 180)
+				(at 13.97 5.08 180)
 				(length 6.35)
 				(name "A7"
 					(effects
@@ -5357,7 +5357,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -2.54 180)
+				(at 13.97 2.54 180)
 				(length 6.35)
 				(name "C7"
 					(effects
@@ -5375,7 +5375,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -5.08 180)
+				(at 13.97 -21.59 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5393,7 +5393,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -7.62 180)
+				(at 13.97 0 180)
 				(length 6.35)
 				(name "C6"
 					(effects
@@ -5411,7 +5411,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -10.16 180)
+				(at 13.97 -2.54 180)
 				(length 6.35)
 				(name "C5"
 					(effects
@@ -5429,7 +5429,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -12.7 180)
+				(at 13.97 -5.08 180)
 				(length 6.35)
 				(name "C4"
 					(effects
@@ -5447,7 +5447,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -15.24 180)
+				(at 13.97 -24.13 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5465,7 +5465,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -17.78 180)
+				(at 13.97 -7.62 180)
 				(length 6.35)
 				(name "C3"
 					(effects
@@ -5483,7 +5483,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -20.32 180)
+				(at 13.97 -10.16 180)
 				(length 6.35)
 				(name "B3"
 					(effects
@@ -5501,7 +5501,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -22.86 180)
+				(at 13.97 -12.7 180)
 				(length 6.35)
 				(name "A1"
 					(effects
@@ -5519,7 +5519,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 15.24 0)
+				(at -13.97 -16.51 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5537,7 +5537,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -25.4 180)
+				(at 13.97 -26.67 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5555,7 +5555,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 12.7 0)
+				(at -13.97 15.24 0)
 				(length 6.35)
 				(name "B12"
 					(effects
@@ -5573,7 +5573,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 10.16 0)
+				(at -13.97 12.7 0)
 				(length 6.35)
 				(name "A11"
 					(effects
@@ -5591,7 +5591,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 7.62 0)
+				(at -13.97 10.16 0)
 				(length 6.35)
 				(name "A10"
 					(effects
@@ -5609,7 +5609,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 5.08 0)
+				(at -13.97 -19.05 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5627,7 +5627,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 2.54 0)
+				(at -13.97 7.62 0)
 				(length 6.35)
 				(name "A9"
 					(effects
@@ -5648,7 +5648,7 @@
 		(symbol "HX8K_Eval_Board_3_1"
 			(rectangle
 				(start -7.62 27.94)
-				(end 7.62 -28.194)
+				(end 7.62 -27.94)
 				(stroke
 					(width 0)
 					(type default)
@@ -5658,7 +5658,7 @@
 				)
 			)
 			(text "HX8K-J3"
-				(at 0.508 26.416 0)
+				(at 0 0.254 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5684,7 +5684,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 0 0)
+				(at -13.97 5.08 0)
 				(length 6.35)
 				(name "P8"
 					(effects
@@ -5702,7 +5702,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -2.54 0)
+				(at -13.97 2.54 0)
 				(length 6.35)
 				(name "T9"
 					(effects
@@ -5720,7 +5720,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -5.08 0)
+				(at -13.97 -21.59 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5738,7 +5738,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -7.62 0)
+				(at -13.97 0 0)
 				(length 6.35)
 				(name "T7"
 					(effects
@@ -5756,7 +5756,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -10.16 0)
+				(at -13.97 -2.54 0)
 				(length 6.35)
 				(name "T6"
 					(effects
@@ -5774,7 +5774,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -12.7 0)
+				(at -13.97 -5.08 0)
 				(length 6.35)
 				(name "T5"
 					(effects
@@ -5792,7 +5792,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -15.24 0)
+				(at -13.97 -24.13 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5810,7 +5810,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -17.78 0)
+				(at -13.97 -7.62 0)
 				(length 6.35)
 				(name "R3"
 					(effects
@@ -5828,7 +5828,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -20.32 0)
+				(at -13.97 -10.16 0)
 				(length 6.35)
 				(name "R2"
 					(effects
@@ -5846,7 +5846,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -22.86 0)
+				(at -13.97 -12.7 0)
 				(length 6.35)
 				(name "T1"
 					(effects
@@ -5882,7 +5882,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -25.4 0)
+				(at -13.97 -26.67 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5899,10 +5899,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 22.86 180)
+			(pin input line
+				(at 2.54 34.29 270)
 				(length 6.35)
-				(name "IO2"
+				(name "VREFIO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5954,7 +5954,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 15.24 180)
+				(at 13.97 -16.51 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -5972,7 +5972,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 12.7 180)
+				(at 13.97 15.24 180)
 				(length 6.35)
 				(name "P13"
 					(effects
@@ -5990,7 +5990,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 10.16 180)
+				(at 13.97 12.7 180)
 				(length 6.35)
 				(name "M11"
 					(effects
@@ -6008,7 +6008,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 7.62 180)
+				(at 13.97 10.16 180)
 				(length 6.35)
 				(name "P10"
 					(effects
@@ -6026,7 +6026,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 5.08 180)
+				(at 13.97 -19.05 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6044,7 +6044,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 2.54 180)
+				(at 13.97 7.62 180)
 				(length 6.35)
 				(name "R10"
 					(effects
@@ -6080,7 +6080,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 0 180)
+				(at 13.97 5.08 180)
 				(length 6.35)
 				(name "P9"
 					(effects
@@ -6098,7 +6098,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -2.54 180)
+				(at 13.97 2.54 180)
 				(length 6.35)
 				(name "R9"
 					(effects
@@ -6116,7 +6116,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -5.08 180)
+				(at 13.97 -21.59 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6134,7 +6134,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -7.62 180)
+				(at 13.97 0 180)
 				(length 6.35)
 				(name "T8"
 					(effects
@@ -6152,7 +6152,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -10.16 180)
+				(at 13.97 -2.54 180)
 				(length 6.35)
 				(name "R6"
 					(effects
@@ -6170,7 +6170,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -12.7 180)
+				(at 13.97 -5.08 180)
 				(length 6.35)
 				(name "R5"
 					(effects
@@ -6188,7 +6188,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -15.24 180)
+				(at 13.97 -24.13 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6206,7 +6206,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -17.78 180)
+				(at 13.97 -7.62 180)
 				(length 6.35)
 				(name "R4"
 					(effects
@@ -6224,7 +6224,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -20.32 180)
+				(at 13.97 -10.16 180)
 				(length 6.35)
 				(name "T3"
 					(effects
@@ -6242,7 +6242,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -22.86 180)
+				(at 13.97 -12.7 180)
 				(length 6.35)
 				(name "T2"
 					(effects
@@ -6260,7 +6260,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 15.24 0)
+				(at -13.97 -16.51 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6278,7 +6278,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -25.4 180)
+				(at 13.97 -26.67 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6296,7 +6296,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 12.7 0)
+				(at -13.97 15.24 0)
 				(length 6.35)
 				(name "N12"
 					(effects
@@ -6314,7 +6314,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 10.16 0)
+				(at -13.97 12.7 0)
 				(length 6.35)
 				(name "N10"
 					(effects
@@ -6332,7 +6332,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 7.62 0)
+				(at -13.97 10.16 0)
 				(length 6.35)
 				(name "T11"
 					(effects
@@ -6350,7 +6350,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 5.08 0)
+				(at -13.97 -19.05 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6368,7 +6368,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 2.54 0)
+				(at -13.97 7.62 0)
 				(length 6.35)
 				(name "T10"
 					(effects
@@ -6388,8 +6388,8 @@
 		)
 		(symbol "HX8K_Eval_Board_4_1"
 			(rectangle
-				(start -7.62 27.432)
-				(end 7.62 -27.178)
+				(start -7.62 27.94)
+				(end 7.62 -27.94)
 				(stroke
 					(width 0)
 					(type default)
@@ -6399,7 +6399,7 @@
 				)
 			)
 			(text "HX8K-J4"
-				(at 0.762 26.162 0)
+				(at 0 0.254 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6407,7 +6407,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 22.86 0)
+				(at 0 34.29 270)
 				(length 6.35)
 				(name "3v3"
 					(effects
@@ -6425,7 +6425,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 0 0)
+				(at -13.97 5.08 0)
 				(length 6.35)
 				(name "J2"
 					(effects
@@ -6443,7 +6443,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -2.54 0)
+				(at -13.97 2.54 0)
 				(length 6.35)
 				(name "H2"
 					(effects
@@ -6461,7 +6461,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -5.08 0)
+				(at -13.97 -21.59 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6479,7 +6479,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -7.62 0)
+				(at -13.97 0 0)
 				(length 6.35)
 				(name "G2"
 					(effects
@@ -6497,7 +6497,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -10.16 0)
+				(at -13.97 -2.54 0)
 				(length 6.35)
 				(name "F2"
 					(effects
@@ -6515,7 +6515,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -12.7 0)
+				(at -13.97 -5.08 0)
 				(length 6.35)
 				(name "E2"
 					(effects
@@ -6533,7 +6533,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -15.24 0)
+				(at -13.97 -24.13 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6551,7 +6551,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -17.78 0)
+				(at -13.97 -7.62 0)
 				(length 6.35)
 				(name "D1"
 					(effects
@@ -6569,7 +6569,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -20.32 0)
+				(at -13.97 -10.16 0)
 				(length 6.35)
 				(name "C1"
 					(effects
@@ -6587,7 +6587,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -22.86 0)
+				(at -13.97 -12.7 0)
 				(length 6.35)
 				(name "B1"
 					(effects
@@ -6605,7 +6605,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 20.32 0)
+				(at -2.54 34.29 270)
 				(length 6.35)
 				(name "3v3"
 					(effects
@@ -6623,7 +6623,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -25.4 0)
+				(at -13.97 -26.67 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6640,10 +6640,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 22.86 180)
+			(pin input line
+				(at 2.54 34.29 270)
 				(length 6.35)
-				(name "IO3"
+				(name "VREFIO3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6695,7 +6695,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 15.24 180)
+				(at 13.97 -16.51 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6713,7 +6713,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 12.7 180)
+				(at 13.97 15.24 180)
 				(length 6.35)
 				(name "N2"
 					(effects
@@ -6731,7 +6731,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 10.16 180)
+				(at 13.97 12.7 180)
 				(length 6.35)
 				(name "M1"
 					(effects
@@ -6749,7 +6749,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 7.62 180)
+				(at 13.97 10.16 180)
 				(length 6.35)
 				(name "L1"
 					(effects
@@ -6767,7 +6767,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 5.08 180)
+				(at 13.97 -19.05 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6785,7 +6785,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 2.54 180)
+				(at 13.97 7.62 180)
 				(length 6.35)
 				(name "K1"
 					(effects
@@ -6821,7 +6821,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 0 180)
+				(at 13.97 5.08 180)
 				(length 6.35)
 				(name "J1"
 					(effects
@@ -6839,7 +6839,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -2.54 180)
+				(at 13.97 2.54 180)
 				(length 6.35)
 				(name "J3"
 					(effects
@@ -6857,7 +6857,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -5.08 180)
+				(at 13.97 -21.59 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6875,7 +6875,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -7.62 180)
+				(at 13.97 0 180)
 				(length 6.35)
 				(name "H1"
 					(effects
@@ -6893,7 +6893,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -10.16 180)
+				(at 13.97 -2.54 180)
 				(length 6.35)
 				(name "G1"
 					(effects
@@ -6911,7 +6911,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -12.7 180)
+				(at 13.97 -5.08 180)
 				(length 6.35)
 				(name "F1"
 					(effects
@@ -6929,7 +6929,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -15.24 180)
+				(at 13.97 -24.13 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -6947,7 +6947,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -17.78 180)
+				(at 13.97 -7.62 180)
 				(length 6.35)
 				(name "D2"
 					(effects
@@ -6965,7 +6965,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -20.32 180)
+				(at 13.97 -10.16 180)
 				(length 6.35)
 				(name "C2"
 					(effects
@@ -6983,7 +6983,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -22.86 180)
+				(at 13.97 -12.7 180)
 				(length 6.35)
 				(name "B2"
 					(effects
@@ -7001,7 +7001,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 15.24 0)
+				(at -13.97 -16.51 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -7019,7 +7019,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -25.4 180)
+				(at 13.97 -26.67 180)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -7037,7 +7037,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 12.7 0)
+				(at -13.97 15.24 0)
 				(length 6.35)
 				(name "N3"
 					(effects
@@ -7055,7 +7055,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 10.16 0)
+				(at -13.97 12.7 0)
 				(length 6.35)
 				(name "M2"
 					(effects
@@ -7073,7 +7073,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 7.62 0)
+				(at -13.97 10.16 0)
 				(length 6.35)
 				(name "L3"
 					(effects
@@ -7091,7 +7091,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 5.08 0)
+				(at -13.97 -19.05 0)
 				(length 6.35)
 				(name "GND"
 					(effects
@@ -7109,7 +7109,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 2.54 0)
+				(at -13.97 7.62 0)
 				(length 6.35)
 				(name "K3"
 					(effects
@@ -8353,7 +8353,7 @@
 			)
 		)
 		(property "Footprint" "NES:NES_Cartridge_Edge"
-			(at -12.7 -38.1 0)
+			(at 0.254 -49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8371,7 @@
 			)
 		)
 		(property "Description" "NES Card Edge"
-			(at -12.7 -38.1 0)
+			(at -0.254 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8402,7 @@
 			)
 		)
 		(symbol "NES_Card_Edge_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at -15.24 -43.18 0)
 				(length 2.54)
 				(name "GND"
@@ -9644,7 +9644,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 15.24 45.72 180)
 				(length 2.54)
 				(name "GND"
