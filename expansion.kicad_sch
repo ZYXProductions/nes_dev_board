@@ -4341,10 +4341,6 @@
 		(uuid "6b811405-2bcc-4c02-b090-eca79a296c0e")
 	)
 	(no_connect
-		(at 148.59 66.04)
-		(uuid "70362a78-43cc-4b90-8950-f5475012b3fa")
-	)
-	(no_connect
 		(at 148.59 63.5)
 		(uuid "8d941398-d22e-4f91-9657-8d8c0f9e5f6a")
 	)
@@ -4355,6 +4351,10 @@
 	(no_connect
 		(at 148.59 48.26)
 		(uuid "bd73c306-cfa4-4c93-a625-062e9f7cce16")
+	)
+	(no_connect
+		(at 148.59 43.18)
+		(uuid "c70ad99c-5aa9-4bba-89c4-fa54e4284778")
 	)
 	(no_connect
 		(at 148.59 60.96)
@@ -6186,6 +6186,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 66.04) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e5f2c3-7a2a-4429-b044-974c58f80d3e")
+	)
+	(wire
+		(pts
 			(xy 217.17 41.91) (xy 218.44 41.91)
 		)
 		(stroke
@@ -7793,16 +7803,6 @@
 			(type default)
 		)
 		(uuid "c60af642-9614-4aad-bd70-82f4bdc988a9")
-	)
-	(wire
-		(pts
-			(xy 148.59 43.18) (xy 167.64 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c64784d8-b7cc-44cb-adff-dc0ad01c9711")
 	)
 	(wire
 		(pts
@@ -9911,7 +9911,7 @@
 		(uuid "db956d7f-1675-4018-a657-4ea7ff57e2bd")
 	)
 	(label "ROMSEL#"
-		(at 148.59 43.18 0)
+		(at 157.48 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10132,7 +10132,7 @@
 	)
 	(global_label "ROMSEL#"
 		(shape input)
-		(at 167.64 43.18 0)
+		(at 173.99 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10142,7 +10142,7 @@
 		)
 		(uuid "0136dcc6-0c1c-4d1d-b907-48de52868e93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.3337 43.18 0)
+			(at 185.6837 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
