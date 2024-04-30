@@ -11416,7 +11416,7 @@
 			)
 		)
 		(property "Value" "NES PWR"
-			(at -2.65 1.25 270)
+			(at -2.65 1.25 -90)
 			(layer "F.SilkS")
 			(uuid "fcad967c-9e9a-4705-86bb-ceda890f345e")
 			(effects
@@ -12139,7 +12139,7 @@
 			)
 		)
 		(property "Value" "NES 5v TP"
-			(at 1.27 91.23 270)
+			(at 1.27 91.23 -90)
 			(layer "F.SilkS")
 			(uuid "53dbe507-bca0-41c8-b6f6-7984ef17aa0d")
 			(effects
@@ -15945,7 +15945,7 @@
 			)
 		)
 		(property "Value" "NES 3v3 TP"
-			(at 1.27 91.23 270)
+			(at 1.27 91.23 -90)
 			(layer "F.SilkS")
 			(uuid "1161e0a6-3c1d-4c1e-a9a5-d2c2c9b7f17e")
 			(effects
@@ -21226,7 +21226,7 @@
 			)
 		)
 		(property "Value" "VGA"
-			(at 1.27 15.03 270)
+			(at 1.27 15.03 -90)
 			(layer "F.SilkS")
 			(uuid "53c54cc4-ddc9-4d3f-8a06-bad98ae0bc78")
 			(effects
