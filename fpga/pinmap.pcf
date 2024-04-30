@@ -1,0 +1,145 @@
+# Pinmap for the NES dev board
+
+# HX8K board 12MHz clock.
+set_io --warn-no-port hwclk J3
+
+# HX8K board LEDs
+set_io --warn-no-port led1 B5
+set_io --warn-no-port led2 B4
+set_io --warn-no-port led3 A2
+set_io --warn-no-port led4 A1
+set_io --warn-no-port led5 C5
+set_io --warn-no-port led6 C4
+set_io --warn-no-port led7 B3
+set_io --warn-no-port led8 C3
+
+# HX8K board connection to FTDI UART.
+set_io --warn-no-port ftdi_tx B12
+set_io --warn-no-port ftdi_rx B10
+
+# Enable conversion between 5v0 and 3v3 domains.
+set_io --warn-no-port conv_n B16
+
+# NES clocks
+set_io --warn-no-port cpu_m2 R9
+set_io --warn-no-port sysclk G1
+
+# CPU Data bus
+set_io --warn-no-port cpu_d0 L3
+set_io --warn-no-port cpu_d1 K3
+set_io --warn-no-port cpu_d2 J2
+set_io --warn-no-port cpu_d3 H2
+set_io --warn-no-port cpu_d4 D1
+set_io --warn-no-port cpu_d5 E2
+set_io --warn-no-port cpu_d6 F2
+set_io --warn-no-port cpu_d7 G2
+
+# CPU control signals
+set_io --warn-no-port romsel_n T2
+set_io --warn-no-port irq_n C2
+set_io --warn-no-port cpu_rw_n M2
+
+# CPU Addresss bus
+set_io --warn-no-port cpu_a0 P1
+set_io --warn-no-port cpu_a1 N3
+set_io --warn-no-port cpu_a2 R1
+set_io --warn-no-port cpu_a3 P2
+set_io --warn-no-port cpu_a4 N2
+set_io --warn-no-port cpu_a5 M1
+set_io --warn-no-port cpu_a6 L1
+set_io --warn-no-port cpu_a7 C1
+set_io --warn-no-port cpu_a8 K1
+set_io --warn-no-port cpu_a9 J1
+set_io --warn-no-port cpu_a10 D2
+set_io --warn-no-port cpu_a11 F1
+set_io --warn-no-port cpu_a12 H1
+set_io --warn-no-port cpu_a13 B2
+set_io --warn-no-port cpu_a14 R10
+
+# Extended data bus (bank switching)
+set_io --warn-no-port ecpu_a13 B1
+set_io --warn-no-port ecpu_a14 T10
+set_io --warn-no-port ecpu_a15 N12
+set_io --warn-no-port ecpu_a16 T13
+set_io --warn-no-port ecpu_a17 T16
+set_io --warn-no-port ecpu_a18 R16
+
+# PRG RAM control signals
+set_io --warn-no-port eprg_oe_n N10
+set_io --warn-no-port eprg_ce_n T11
+
+# Audio expansion (8 bit analog out)
+set_io --warn-no-port au0 P8
+set_io --warn-no-port au1 T9
+set_io --warn-no-port au2 T7
+set_io --warn-no-port au3 T6
+set_io --warn-no-port au4 T5
+set_io --warn-no-port au5 R3
+set_io --warn-no-port au6 R2
+set_io --warn-no-port au7 T1
+
+# VGA output
+set_io --warn-no-port vga_hs A16
+set_io --warn-no-port vga_vs A15
+set_io --warn-no-port vga_r0 P16
+set_io --warn-no-port vga_r1 N16
+set_io --warn-no-port vga_r2 M16
+set_io --warn-no-port vga_r3 K15
+set_io --warn-no-port vga_g0 K14
+set_io --warn-no-port vga_g1 G14
+set_io --warn-no-port vga_g2 J15
+set_io --warn-no-port vga_g3 G16
+set_io --warn-no-port vga_b0 F16
+set_io --warn-no-port vga_b1 E16
+set_io --warn-no-port vga_b2 D16
+set_io --warn-no-port vga_b3 C16
+
+# PPU address bus
+set_io --warn-no-port ppu_a0 B15
+set_io --warn-no-port ppu_a1 B13
+set_io --warn-no-port ppu_a2 B12
+set_io --warn-no-port ppu_a3 A11
+set_io --warn-no-port ppu_a4 A10
+set_io --warn-no-port ppu_a5 A9
+set_io --warn-no-port ppu_a6 B8
+set_io --warn-no-port ppu_a7 B7
+set_io --warn-no-port ppu_a8 A6
+set_io --warn-no-port ppu_a9 B6
+set_io --warn-no-port ppu_a10 A5
+set_io --warn-no-port ppu_a11 B5
+set_io --warn-no-port ppu_a12 B4
+set_io --warn-no-port ppu_a13 A2
+
+# Extended PPU address bus (bank switching)
+set_io --warn-no-port eppu_a10 A1
+set_io --warn-no-port eppu_a11 B3
+set_io --warn-no-port eppu_a12 C3
+set_io --warn-no-port eppu_a13 C4
+set_io --warn-no-port eppu_a14 B9
+set_io --warn-no-port eppu_a15 C5
+set_io --warn-no-port eppu_a16 C6
+set_io --warn-no-port eppu_a17 C7
+set_io --warn-no-port eppu_a18 A7
+
+# PPU control lines
+set_io --warn-no-port ciram_a10 B14
+set_io --warn-no-port ciram_ce C9
+set_io --warn-no-port ppu_wr_n B11
+set_io --warn-no-port ppu_rd_n B10
+set_io --warn-no-port echr_ce_n L16
+
+# PPU Data Bus
+set_io --warn-no-port ppu_d0 K16
+set_io --warn-no-port ppu_d1 J14
+set_io --warn-no-port ppu_d2 F14
+set_io --warn-no-port ppu_d3 H14
+set_io --warn-no-port ppu_d4 D15
+set_io --warn-no-port ppu_d5 E14
+set_io --warn-no-port ppu_d6 F15
+set_io --warn-no-port ppu_d7 G15
+
+# CIC lockout chips
+set_io --warn-no-port cic_clk H16
+set_io --warn-no-port cic_mb R15
+set_io --warn-no-port cic_pk P15
+set_io --warn-no-port cic_rst M15
