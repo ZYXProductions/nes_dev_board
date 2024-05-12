@@ -1,0 +1,10 @@
+package(default_visibility = ["//visibility:public"])
+
+load("@hurt//fpga/lattice:constraints.bzl", "ice40_constraints")
+
+ice40_constraints(
+    name = "hx8k",
+    device = "hx8k",
+    package = "ct256",
+    pcf = "pinmap.pcf",
+)

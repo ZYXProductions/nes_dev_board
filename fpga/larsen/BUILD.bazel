@@ -1,0 +1,11 @@
+package(default_visibility = ["//visibility:public"])
+
+load("@hurt//hdl:hdl.bzl", "hdl_binary")
+
+hdl_binary(
+    name = "larsen",
+    srcs = ["larsen.v"],
+    constraints = "//fpga/hx8k",
+    top = "top",
+    platform = "@hurt//fpga/lattice:hx8k",
+)

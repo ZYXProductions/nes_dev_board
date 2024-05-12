@@ -1,0 +1,13 @@
+workspace(name="nes_dev_board")
+
+load("//third_party/bazel:repos.bzl", "bazel_repos")
+bazel_repos()
+load("//third_party/bazel:deps.bzl", "bazel_deps")
+bazel_deps()
+
+load("//third_party/hdl:repos.bzl", "hdl_repos")
+hdl_repos(
+#    hurt = "/home/cfrantz/src/cross_compile/hurt",
+)
+load("//third_party/hdl:deps.bzl", "hdl_deps")
+hdl_deps()
